@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT||8088;
 const corsOptions = {                                        
     origin: ['http://localhost:3000', 'https://citd-c9b1d.web.app'],   
-    credentials: true,  
+    credentials: true,      
 }     
 app.use(cors(corsOptions)); 
 app.use(json()) 
